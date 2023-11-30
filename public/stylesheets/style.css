@@ -1,0 +1,162 @@
+body {
+  background-color: #8a28b8;
+  color: #333;
+  margin: 0;
+  padding: 0;
+  background-image: url('../images/fondo-index.jpg');
+  background-size: cover;
+  background-position: center;
+  min-height: 100vh;
+  width: 100%;
+  padding-top: 60px;
+}
+
+header {
+  background-color: #8a28b8;
+  color: #fff;
+  padding: 20px;
+  height: 60px;
+  position: fixed;
+  top: 0;
+  width: 100%;
+}
+
+footer {
+  background-color: #8a28b8;
+  color: #fff;
+  padding: 20px;
+}
+
+footer {
+  position:relative;
+  bottom: 0%;
+  width: 100%;
+  background-color: #8a28b8;
+  color: #fff;
+  padding: 20px;
+}
+
+footer p {
+  text-align: center;
+}
+
+h1,
+h2 {
+  margin-top: 20px;
+  text-align: center;
+}
+
+main.principal {
+  width: 100%;
+  margin: auto;
+  padding-top: 80px;
+}
+
+main.aplicativos {
+  width: 100%;
+  margin: auto;
+  padding-top: 80px;
+  background-color: #d7abeb; 
+}
+
+li {
+  list-style: none;
+  display: block;
+  padding: 20px;
+  margin-bottom: 10px;
+}
+
+.container-form{
+  max-width: 50%;
+  margin: auto;
+}
+
+label {
+  display: block;
+  margin-bottom: 5px;
+  font-weight: bold;
+}
+
+input,
+select {
+  display: block;
+  width: 100%;
+  margin-bottom: 15px;
+  padding: 10px;
+  border: 2px solid #ccc;
+  border-radius: 4px;
+  font-size: 16px;
+  font-family: sans-serif;
+  box-sizing: border-box;
+}
+
+input[type="submit"],
+input[type="button"] {
+  background-color: #8a28b8;
+  color: white;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  padding: 12px 20px;
+  font-size: 16px;
+  font-family: sans-serif;
+  transition: background-color 0.3s ease;
+  text-decoration: none;
+  border-radius:16px;
+  cursor: pointer;
+}
+
+input[type="submit"]:hover {
+  background-color: #8a28b8;
+}
+
+span {
+  color: red;
+}
+
+table {
+  border-collapse: collapse;
+  width: 100%;
+  font-size: 16px;
+  font-family: sans-serif;
+  margin-bottom: 30px;
+}
+
+th,
+td {
+  padding: 10px;
+  text-align: center;
+  border: 5px solid #8a28b8;
+  background-color: #8a28b8;
+}
+
+td {
+  color: #fff;
+}
+
+th {
+  background-color: #f2f2f2;
+  font-weight: bold;
+}
+
+.tabla-container {
+  max-width: 80%;
+}
+
+.listado-container {
+  max-width: 70%;
+}
+.boton-container {
+  margin-block: 30px;
+}
+a{
+  text-decoration: none;
+}
+.listado-servicios a {
+  color: #8a28b8;
+  font-size: 20px;
+}
+
+.listado-servicios li::marker {
+  content: ⭐;
+}

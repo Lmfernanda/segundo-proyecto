@@ -1,0 +1,35 @@
+<header>
+        <h1>Centro médico Backend</h1>
+    </header>
+    <main class="aplicativos">
+        <h2>Listado citas</h2>
+        <table>
+            <thead>
+                <tr>
+                    <th>Fecha cita</th>
+                    <th>Paciente</th>
+                    <th>Teléfono paciente</th>
+                    <th>Especialidad</th>
+                    <th>Consultorio</th>
+                    <th>Médico</th>
+                </tr>
+            </thead>
+            <tbody>
+                {{#each resultado}}
+                <tr>
+                    <td>{{formatoFecha fecha_cita}}</td>
+                    <td>{{nombres}} {{apellidos}}</td>
+                    <td>{{telefono}}</td>
+                    <td>{{especialidad}}</td>
+                    <td>{{consultorio}}</td>
+                    <td>{{nombresMedico}} {{apellidosMedico}}</td>
+                </tr>
+                {{/each}}
+            </tbody>
+        </table>
+        <a href="../index.html"><input type="button" value="Volver"></a>
+    </main>
+    <footer>
+        <h2>REALIZADO POR:</h2>
+        <p>Mar&iacute;a Fernanda L&oacute;pez</p>
+    </footer>

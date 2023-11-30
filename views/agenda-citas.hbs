@@ -1,0 +1,27 @@
+<header>
+    <h1>Centro médico Backend</h1>
+</header>
+<main class="aplicativos">
+    <h2>Agendamiento de citas</h2>
+    <div class="container-form">
+        <form method="post" action="/agregar-cita">
+            <label for="cedula">Número de cédula:</label>
+            <input type="number" id="cedula" name="cedula" required>
+            <label for="fecha_cita">Fecha de cita médica:</label>
+            <input type="date" id="fecha_cita" name="fecha_cita" required>
+            <label for="especialista">Especialista:</label>
+            <select name="especialista" id="especialista" required>
+                <option value="">----------Seleccione una opcion-----------</option>
+                {{#each resultado}}
+                <option value="{{cedula}}">{{nombres}} {{apellidos}}</option>
+                {{/each}}
+            </select>
+            <input type="submit" value="Enviar">
+        </form>
+        <a href="../index.html"><input type="button" value="Volver"></a>
+    </div>
+</main>
+<footer>
+    <h2>REALIZADO POR:</h2>
+    <p>Mar&iacute;a Fernanda L&oacute;pez</p>
+</footer>
